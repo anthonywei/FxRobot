@@ -1,0 +1,31 @@
+;;This is the config file, we define the userinfo and server info etc here
+;;But in the future we would move this file into the Oracle database ...
+
+;;User Info Part;;
+[UserInfo]
+;;The phone number or fetion number here
+Sid=100001
+
+;The password of the user
+Password=abc123
+
+;;The Salt of the user
+Salt=AD12AB04
+
+;;The Cnonce of the user, the last two character
+;;of Cnonce is a random number between 50 to 100
+;;for example here we set it 66
+Cnonce=E7C9CF4
+
+
+;;Server Info Part;;
+[ServerInfo]
+;;The Proxey for Sip connection, the IP and Port
+SipProxy=221.179.173.110:5097
+
+;;The Domain of the china mobile sever
+Domain=femoo.amigo.bjmcc.net
+
+
+
+
